@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=!, initial-scale=1.0">
     <link rel="stylesheet" href="Ahorcado.css">
+    <script src="AhorcadojsEC.js"></script>
     <title>Ahorcado Edwin Coy</title>
 </head>
 <body>
-    <h1>AHORCADO</h1>
+    <div>
+        <center>
+        <div id="tablero">
+            <h1>AHORCADO</h1>
+            <div id="palabra"></div>
+            <div id="play" onclick="location.reload(true);">Jugar</div>
+        </div>
+        <div>
+            <canvas id="tablaAhorcado" width="600" height="600"></canvas>
+        </div>
+        <div id="teclado">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            <input type="button" name="tecla" value="A" id="A" class="let" onclick="comprobar(This.value)">
+            
+        </div>
+        </center>
+
+    </div>
+
     
 </body>
 </html>
